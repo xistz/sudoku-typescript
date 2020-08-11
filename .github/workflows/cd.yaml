@@ -2,9 +2,10 @@
 name: Sudoku-Typescript CD workflow
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  push
 
 jobs:
   test:
